@@ -1,0 +1,26 @@
+2022/08/16 21:54:15 [error] 9280#7752: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8094"
+2022/08/16 21:54:35 [error] 9280#7752: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8094"
+2022/08/16 21:55:10 [error] 9280#7752: *2 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8094"
+2022/08/16 21:55:50 [error] 12928#2900: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8094"
+2022/08/16 21:59:23 [error] 12928#2900: *5 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8094"
+2022/09/15 01:37:59 [error] 12968#14116: *102 FastCGI sent in stderr: "PHP Fatal error:  Uncaught yii\base\ErrorException: session_write_close(): Skipping numeric key 0 in E:\Develop\php-projects\4_for-learn-project\basic\vendor\yiisoft\yii2\web\Session.php:221
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'session_write_c...', 'E:\\Develop\\php-...', 221)
+#1 E:\Develop\php-projects\4_for-learn-project\basic\vendor\yiisoft\yii2\web\Session.php(221): session_write_close()
+#2 [internal function]: yii\web\Session->close()
+#3 {main}
+  thrown in E:\Develop\php-projects\4_for-learn-project\basic\vendor\yiisoft\yii2\web\Session.php on line 221" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /job/generate HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8094"
+2022/09/15 01:38:06 [error] 12968#14116: *102 FastCGI sent in stderr: "PHP Fatal error:  Uncaught yii\base\ErrorException: session_write_close(): Skipping numeric key 0 in E:\Develop\php-projects\4_for-learn-project\basic\vendor\yiisoft\yii2\web\Session.php:221
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'session_write_c...', 'E:\\Develop\\php-...', 221)
+#1 E:\Develop\php-projects\4_for-learn-project\basic\vendor\yiisoft\yii2\web\Session.php(221): session_write_close()
+#2 [internal function]: yii\web\Session->close()
+#3 {main}
+  thrown in E:\Develop\php-projects\4_for-learn-project\basic\vendor\yiisoft\yii2\web\Session.php on line 221" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /job/generate HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8094"
+2022/09/15 01:38:08 [error] 12968#14116: *102 FastCGI sent in stderr: "PHP Fatal error:  Uncaught yii\base\ErrorException: session_write_close(): Skipping numeric key 0 in E:\Develop\php-projects\4_for-learn-project\basic\vendor\yiisoft\yii2\web\Session.php:221
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'session_write_c...', 'E:\\Develop\\php-...', 221)
+#1 E:\Develop\php-projects\4_for-learn-project\basic\vendor\yiisoft\yii2\web\Session.php(221): session_write_close()
+#2 [internal function]: yii\web\Session->close()
+#3 {main}
+  thrown in E:\Develop\php-projects\4_for-learn-project\basic\vendor\yiisoft\yii2\web\Session.php on line 221" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /job/generate HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8094"
